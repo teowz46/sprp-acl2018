@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-base_path=/home/nlp/aharonr6/
+base_path=/content
 
 python $base_path/git/OpenNMT-py/preprocess.py \
 -train_src $base_path/git/Split-and-Rephrase/baseline-seq2seq/train.complex \

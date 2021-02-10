@@ -50,7 +50,7 @@ def process_sentdata(data, datasplit):
 
 if __name__ == "__main__":
 
-    base_path = '/home/nlp/aharonr6/'
+    base_path = '/content'
 
     with open(base_path + '/git/Split-and-Rephrase/benchmark/Split-RDFs-relations.json') as data_file:
         datasplit = json.load(data_file)

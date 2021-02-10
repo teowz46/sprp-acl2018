@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-base_path=/home/nlp/aharonr6/
+base_path=/content
 
 model_name=sprp_onmt_copy_128
 

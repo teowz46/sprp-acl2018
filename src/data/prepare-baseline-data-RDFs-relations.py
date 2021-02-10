@@ -109,7 +109,7 @@ def process_sentdata_baseline(data, datasplit,
 
 if __name__ == "__main__":
     # directory containing the Split-and-Rephrase github repository
-    base_path = '/home/nlp/aharonr6/'
+    base_path = '/content'
 
     # data directories (created if needed)
     seq2seq_split_dir_name = base_path + "/git/Split-and-Rephrase/baseline-seq2seq-RDFs-relations"
