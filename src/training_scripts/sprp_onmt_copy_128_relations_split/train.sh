@@ -17,7 +17,7 @@ python $base_path/git/OpenNMT-py/train.py \
 -batch_size 64 \
 -max_grad_norm 2 \
 -share_embeddings \
--gpuid 1 \
+-gpuid 0 \
 -start_checkpoint_at 1 \
 -start_epoch 1 \
 -copy_attn
